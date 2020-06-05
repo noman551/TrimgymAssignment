@@ -1,0 +1,337 @@
+
+/* Home page and navbar  */
+
+body{
+    background-color: #d4d4d4;
+
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+    }
+
+#collapse #ul #li #a{
+    color: white;
+    padding-top:50px;
+    margin-right: 20px;
+    font-size: 1.3em;
+    
+}
+#collapse #ul .dropdown #dtl {
+    margin-right: 20px;
+    font-size: 1.3em;
+    padding-top: 50px;
+    color: white;
+}
+#collapse #ul .dropdown #dtl:hover{
+    background-color: transparent;
+    color: #e33637;
+}
+#collapse #ul #li #a:hover
+{
+    background-color: transparent;
+    border-bottom: 3px #e33637 solid;
+    color: #e33637;
+    
+}
+#collapse #ul .dropdown a {
+    background-color:transparent !important;
+    color: #e33637;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#collapse #ul .dropdown a:hover{
+    background-color:#e33637;
+    color: white 
+}
+.dropdown-menu a:hover {background-color: transparent ;}
+
+.dropdown:hover .dropdown-menu {display: inline;background-color: #c7c6c6 !important}
+
+.navbar-toggle{
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid white !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.icon-bar{
+    background-color: rgb(107, 107, 107) !important
+}
+.sr-only{
+    background-color: white !important;
+    border:10px solid white !important;
+    margin-top: 10px !important;
+
+}
+#details{
+    color: #e33637;
+    font-weight: bolder;
+    margin-top: 200px;
+    font-size:1.5em;
+font-family:azhar;
+}
+h1:before {
+    position: absolute;
+    max-width: 40px;
+    width: 100%;
+    display: block;
+    height: 2px;
+    background: #dddddd;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 100%;
+    content: "";
+}
+#rows{
+    float: left;
+    background: url('/IMAGES/storyimg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #e33637;
+    width: 100%;
+    height:100%;
+}
+.thumbnail{
+    border-radius: 10px;
+}
+.thumbnail:hover{
+    border-right: 4px #e33637 solid !important;
+    border-bottom: 2px #e33637 solid !important;
+
+}
+#thumbnail2:hover img {
+filter: grayscale(0);
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(#3c3c3c 0,#222 100%);
+    border-top: #dddddd
+}
+/* use for breadcrumbs here */
+#breadcrumbss ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 55px;
+    margin-bottom: 65px;
+}
+
+#breadcrumbss ul  li {
+    float: left;
+    color: #e33637;
+    padding: 12px;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+#breadcrumbss ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+#breadcrumbss ul #bread1{
+    color: #fff;
+    font-weight: 400;
+}
+/* end of vbreadcrumbs here */
+#cate-head{
+    background-color:#e33637!important;
+    font-size:1.5em;
+    color: white;
+    font-weight: bold;
+    border: none!important;
+    padding-top:15px;
+    padding-bottom:15px; 
+}
+#active{
+    background-color: #c5c4c4d0 !important;
+    border:1px solid #c5c4c4 !important;
+    padding-top:10px !important;
+    padding-bottom:10px !important ;
+
+}
+#active a{
+    color: #2a2929 !important;
+    font-size:1.3em;
+    font-weight: bolder !important;
+    padding-right: 90% !important;
+    text-transform: capitalize !important;
+    padding-bottom: 3%;
+    padding-top: 3%;
+   
+}
+#active:hover{
+    background-color: #c5c4c4a9 !important; 
+    border-color: #dbdada !important
+}
+#input{
+    margin-bottom: 15px;
+    width: 100%;
+}
+#sub{
+    border-radius: 50px;
+    width: 200px;
+    background-color: #e33637;
+    color: #dddddd;
+}
+#leg{
+    margin-top: 50px;
+}
+#leg1{
+    margin-top: 80px;
+}
+#contact{
+    height: 500px;
+    width: 100%;
+    background-color: #222;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#email{
+    height: 500px;
+    width: 100%;
+    background-color: #222;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#address{
+    height: 500px;
+    width: 100%;
+    background-color: #222;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#how{
+    text-align: center;
+    margin-top: 50px;
+    color: #e33637;
+}
+#as{
+    text-align: center;
+    margin-top: 10px;
+    color: #e33637;
+}
+#rdef{
+    background-color: #e33637;
+    margin-top: 50px;
+}
+#op{
+    background-color: #e33637;
+    margin-top: 50px;
+}
+
+#why{
+    margin-top: 20px;
+    color: #dddddd;
+}
+
+#our{
+    margin-top: 20px;
+    color: #dddddd;
+}
+#legal{
+    margin-top: 100px;
+    color: #dddddd;
+    padding-bottom: 30px;
+}
+#legaln{
+    margin-top: 100px;
+    color: #dddddd;
+    padding-bottom: 30px;
+}
+#imagedef{
+    width: 100%;
+    height: 500px;
+}
+#classes{
+    text-align: center;
+    margin-top: 50px;
+    color: #e33637;
+}
+#you{
+    text-align: center;
+    margin-top: 10px;
+    color: #e33637;
+}
+#syfp{
+    margin-top: 50px;
+    text-align: center;
+    color: #e33637
+}
+#wrn{
+    margin-top: 10px;
+    text-align: center;
+    color: #e33637
+}
+#orb{
+    text-align: center;
+    margin-top: 10px;
+    color: #e33637;
+}
+#asy{
+    text-align: center;
+    margin-top: 10px;
+    color: #e33637;
+}
+
+
+#yogaclass{
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+    
+}
+#yogacdiv :hover{
+transform: scale(1.1);
+}
+#yogaq{
+    width: 100%;
+    height: 250px;
+    margin-top: 100px; 
+}
+#yogaqdiv :hover{
+transform: scale(1.1);
+}
+#yogadance{
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+}
+#yogaddiv :hover{
+transform: scale(1.1);
+}
+#wtable{
+margin-bottom: 100px;
+margin-top: 100px;
+
+}
+#sw{
+    margin-bottom: 10px;
+    margin-top: 120px;
+    
+    }
+#sm{
+    margin-bottom: 10px;
+    margin-top: 60px;
+        
+}
+#oa{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+#ha{
+    margin-bottom: 100px;
+    margin-top:100px;
+}
+
+.thumbnail1{
+    background:transparent !important;
+    border: 5px solid white !important;
+}
